@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.svg-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-rectangle {
+    width: 70px;   /* Ширина прямоугольника */
+    height: 20px;  /* Высота прямоугольника */
+    background-color: white;  /* Цвет фона */
+    position: absolute;
+    top: 60px; /* Размещение над SVG */
+    left: 60px;
+}
+
+input {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#Percent_1 {
+    width: 40px;
+    top: 60px;
+    left: 60px;
+}
+
+#Price_1 {
+    top: 60px;
+    left: 110px;
+}
+
+
+.result {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  color: orange;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#ExitVolume_1 {
+    top: 60px;
+    right: 110px;
+}
