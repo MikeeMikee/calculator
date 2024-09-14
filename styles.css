@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.svg-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+input.error {
+  background: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#Percent_1 {width: 40px; top: 60px; left: 60px;}
+#Percent_2 {width: 40px; top: 90px; left: 60px;}
+#Percent_3 {width: 40px; top: 120px; left: 60px;}
+#Percent_4 {width: 40px; top: 150px; left: 60px;}
+#Percent_5 {width: 40px; top: 180px; left: 60px;}
+
+#Price_1 {top: 60px; left: 110px;}
+#Price_2 {top: 90px; left: 110px;}
+#Price_3 {top: 120px; left: 110px;}
+#Price_4 {top: 150px; left: 110px;}
+#Price_5 {top: 180px; left: 110px;}
+
+#Risk {bottom: 110px; left: 30px;}
+#Deposit {bottom: 110px; left: 110px;}
+#Entry_price {bottom: 110px; right: 110px;}
+#Stop_loss {bottom: 110px; right: 30px;}
+
+.result {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  color: #FA7D00;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#ExitVol_1 {top: 60px; right: 110px;}
+#ExitVol_2 {top: 90px; right: 110px;}
+#ExitVol_3 {top: 120px; right: 110px;}
+#ExitVol_4 {top: 150px; right: 110px;}
+#ExitVol_5 {top: 180px; right: 110px;}
+
+#Profit_1 {top: 60px; right: 30px;}
+#Profit_2 {top: 90px; right: 30px;}
+#Profit_3 {top: 120px; right: 30px;}
+#Profit_4 {top: 150px; right: 30px;}
+#Profit_5 {top: 180px; right: 30px;}
+
+
+#EntryVol {bottom: 70px; right: 30px;}
+#EntryVolCoin {bottom: 30px; right: 30px;}
+
+#RR {bottom: 70px; right: 110px;}
+#StopLossPerc {bottom: 30px; right: 110px;}
+
+#AVGTP {bottom: 70px; left: 110px; color: #44B3E1;}
+#TakeProfitPerc {bottom: 30px; left: 110px; color: #44B3E1;}
+
+#TakeProfit {bottom: 70px; left: 30px; color: #44B3E1;}
+#TakeProfitDepo {bottom: 30px; left: 30px; color: #44B3E1;}
