@@ -23,7 +23,7 @@ body {
 }
 
 input {
-  width: 70px;
+  width: 75px;
   height: 20px;
   position: absolute;
   color: #fff;
@@ -45,25 +45,25 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-#Percent_1 {width: 40px; top: 60px; left: 60px;}
-#Percent_2 {width: 40px; top: 90px; left: 60px;}
-#Percent_3 {width: 40px; top: 120px; left: 60px;}
-#Percent_4 {width: 40px; top: 150px; left: 60px;}
-#Percent_5 {width: 40px; top: 180px; left: 60px;}
+#Percent_1 {width: 45px; top: 50px; left: 50px;}
+#Percent_2 {width: 45px; top: 80px; left: 50px;}
+#Percent_3 {width: 45px; top: 110px; left: 50px;}
+#Percent_4 {width: 45px; top: 140px; left: 50px;}
+#Percent_5 {width: 45px; top: 170px; left: 50px;}
 
-#Price_1 {top: 60px; left: 110px;}
-#Price_2 {top: 90px; left: 110px;}
-#Price_3 {top: 120px; left: 110px;}
-#Price_4 {top: 150px; left: 110px;}
-#Price_5 {top: 180px; left: 110px;}
+#Price_1 {top: 50px; left: 105px;}
+#Price_2 {top: 80px; left: 105px;}
+#Price_3 {top: 110px; left: 105px;}
+#Price_4 {top: 140px; left: 105px;}
+#Price_5 {top: 170px; left: 105px;}
 
-#Risk {bottom: 110px; left: 30px;}
-#Deposit {bottom: 110px; left: 110px;}
-#Entry_price {bottom: 110px; right: 110px;}
-#Stop_loss {bottom: 110px; right: 30px;}
+#Risk {bottom: 100px; left: 20px;}
+#Deposit {bottom: 100px; left: 105px;}
+#Entry_price {bottom: 100px; right: 105px;}
+#Stop_loss {bottom: 100px; right: 20px;}
 
 .result {
-  width: 70px;
+  width: 75px;
   height: 20px;
   position: absolute;
   color: #FA7D00;
@@ -72,27 +72,27 @@ input::-webkit-inner-spin-button {
   line-height: 20px;
 }
 
-#ExitVol_1 {top: 60px; right: 110px;}
-#ExitVol_2 {top: 90px; right: 110px;}
-#ExitVol_3 {top: 120px; right: 110px;}
-#ExitVol_4 {top: 150px; right: 110px;}
-#ExitVol_5 {top: 180px; right: 110px;}
+#ExitVol_1 {top: 50px; right: 105px;}
+#ExitVol_2 {top: 80px; right: 105px;}
+#ExitVol_3 {top: 110px; right: 105px;}
+#ExitVol_4 {top: 140px; right: 105px;}
+#ExitVol_5 {top: 170px; right: 105px;}
 
-#Profit_1 {top: 60px; right: 30px;}
-#Profit_2 {top: 90px; right: 30px;}
-#Profit_3 {top: 120px; right: 30px;}
-#Profit_4 {top: 150px; right: 30px;}
-#Profit_5 {top: 180px; right: 30px;}
+#Profit_1 {top: 50px; right: 20px;}
+#Profit_2 {top: 80px; right: 20px;}
+#Profit_3 {top: 110px; right: 20px;}
+#Profit_4 {top: 140px; right: 20px;}
+#Profit_5 {top: 170px; right: 20px;}
 
 
-#EntryVol {bottom: 70px; right: 30px;}
-#EntryVolCoin {bottom: 30px; right: 30px;}
+#EntryVol {bottom: 60px; right: 20px;}
+#EntryVolCoin {bottom: 20px; right: 20px;}
 
-#RR {bottom: 70px; right: 110px;}
-#StopLossPerc {bottom: 30px; right: 110px;}
+#RR {bottom: 60px; right: 105px;}
+#StopLossPerc {bottom: 20px; right: 105px;}
 
-#AVGTP {bottom: 70px; left: 110px; color: #44B3E1;}
-#TakeProfitPerc {bottom: 30px; left: 110px; color: #44B3E1;}
+#AVGTP {bottom: 60px; left: 105px; color: #44B3E1;}
+#TakeProfitPerc {bottom: 20px; left: 105px; color: #44B3E1;}
 
-#TakeProfit {bottom: 70px; left: 30px; color: #44B3E1;}
-#TakeProfitDepo {bottom: 30px; left: 30px; color: #44B3E1;}
+#TakeProfit {bottom: 60px; left: 20px; color: #44B3E1;}
+#TakeProfitDepo {bottom: 20px; left: 20px; color: #44B3E1;}
