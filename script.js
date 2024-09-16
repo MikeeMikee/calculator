@@ -107,6 +107,13 @@ function calculate() {
 
   // Вызов функции для проверки суммы Percent_*
   validatePercentSum();
+  
+  // Проверяем значение RR
+  if (RR < 1) {
+    document.getElementById('RR').style.backgroundColor = 'rgba(255, 121, 121, 0.25)';
+  } else {
+    document.getElementById('RR').style.backgroundColor = ''; 
+  }
 }
 
 // Запуск функции calculate() при изменении значений в полях ввода
